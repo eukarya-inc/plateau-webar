@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plateau-webar
+  namespace: eukarya-inc
+  annotations:
+    github.com/project-slug: eukarya-inc/plateau-webar
+  links:
+  - url: https://github.com/eukarya-inc/plateau-webar
+    title: GitHub
+    icon: github
+  - url: https://reearth-webar.vercel.app
+    title: Website
+    icon: web
+  tags:
+  - typescript
+spec:
+  type: service
+  lifecycle: production
+  owner: eukarya-inc/plateau
